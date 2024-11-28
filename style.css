@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(34, 34,34);
+}
+
+.title{
+  color: #fff;
+  font-size: large;
+}
+
+#content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-content{
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+}
+
+.cal-btn, .color-btn{
+  width: 25%;
+  height: 25%;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 3.5px 3.5px;
+}
+
+.color-btn{
+  color: #fff;
+  background-color: rgb(78, 78, 78);
+}
+
+.btn.color-btn:hover{
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+}
+
+td{
+  padding: 2px !important;
+}
+
+tbody td {
+  text-align: center;
+}
+
+.display{
+  min-height: 2.5rem;
+  overflow: hidden;
+}
+
+body #container .timer {
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 160px;
+  border-radius: 50px;
+  position: relative;
+}
+body #container .timer .timer-wrapper {
+  position: absolute;
+  width: 190px;
+  height: 110px;
+  left: 50%;
+  top: 50%;
+  margin-left: -95px;
+  margin-top: -57px;
+}
+body #container .timer #time-left {
+  font-family: digital;
+  font-size: 80px;
+}
+
+.screen{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
